@@ -36,7 +36,7 @@ Users should be able to:
 ## Links
 
 - **Solution URL:** https://github.com/Eng-Natole/product-preview
-- **Live Site URL:** [Add live site URL here]
+- **Live Site URL:** https://eng-natole.github.io/product-preview/
 
 ---
 
