@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", serif;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  margin: 50% 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 360px;
+  border-radius: 10px;
+}
+
+.imgs img {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px 10px 0 0;
+  object-fit: fill;
+}
+
+p {
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+}
+
+h1 {
+  color: hsl(212, 21%, 14%);
+  font-family: "Fraunces", serif;
+  margin: 10px 30px;
+}
+
+.prem p {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 20px 30px;
+}
+.pra1 p,
+.value {
+  margin: 5px 30px;
+}
+
+.value {
+  display: flex;
+  align-items: center;
+}
+
+.value .first {
+  font-size: 35px;
+  color: hsl(158, 36%, 37%);
+  font-weight: 700;
+  margin-right: 30px;
+  font-family: "Fraunces", serif;
+}
+.value .second {
+  color: hsl(228, 12%, 48%);
+}
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 100px;
+  margin: 15px 30px 30px;
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+button:active {
+  background-color: hsl(160, 43%, 20%);
+}
+
+button span {
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+@media (min-width: 1440px) {
+  .container {
+    flex-direction: row;
+    max-width: 610px;
+    height: 490px;
+  }
+
+  .imgs,
+  .header {
+    width: 50%;
+  }
+
+  .imgs img {
+    height: 490px;
+    border-radius: 10px 0 0 10px;
+  }
+  .pra1 p {
+    font-size: 18px;
+  }
+
+  button {
+    width: 80%;
+    padding: 15px 30px;
+    margin-top: 0;
+  }
+
+  .prem p,
+  .pra1 p,
+  .value {
+    margin: 25px 30px;
+  }
+}
