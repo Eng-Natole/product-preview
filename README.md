@@ -92,7 +92,7 @@ To run this project locally:
    ```
 2. Navigate to the project directory:
    ```bash
-   cd repository-name
+   cd product-preview
    ```
 3. Open `index.html` in your browser.
 
