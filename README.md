@@ -87,7 +87,8 @@ To run this project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-github-Eng-natole/repository-name.git
+   git clone  https://github.com/Eng-Natole/product-preview.git
+  
    ```
 2. Navigate to the project directory:
    ```bash
